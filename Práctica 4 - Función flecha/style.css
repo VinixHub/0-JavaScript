@@ -1,0 +1,52 @@
+html {
+    margin: 0;
+    background-color: #9CADCE;
+}
+
+header {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(#35605A, #31E981);
+    border-bottom: 1px solid black;
+}
+
+header > h1 {
+    color: transparent;
+    background: linear-gradient(#F5CAC3, #F7EDE2);
+    background-clip: text;
+}
+
+#flex-container {
+    background: linear-gradient(#D1CFE2, #9CADCE);
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#flex-container > div {
+    padding: 20px;
+    border-radius: 10%;
+    height: 200px;
+    width: 400px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#example-function-normal {
+    background: radial-gradient(#585191, #7D6F86);
+}
+
+#example-function-arrow {
+    background: radial-gradient(#90E0F3, #75F4F4);
+}
+
+#between-div {
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,35 @@
+html {
+    background-color: black;
+}
+
+header {
+    margin: 0;
+    padding: 10px;
+    background-image: linear-gradient(#5E6472, #AED9E0);
+    border-bottom: 1px solid black;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header > h1 {
+    background-image: linear-gradient(#614344, #332C23);
+    color: transparent;
+    background-clip: text;
+}
+
+main {
+    padding-top: 90px;
+    text-align: center;
+    width: 100%;
+    height: 800px;
+    background-image: linear-gradient(rgb(94, 94, 94), black);
+}
+
+main > h3 {
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(#F4845F, #F25C54);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    margin: 0px;
+}

@@ -1,0 +1,9 @@
+header {
+    background-image: linear-gradient(cyan, blue);
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-bottom: 1px solid black;
+}
